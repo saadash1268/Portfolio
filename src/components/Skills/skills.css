@@ -1,0 +1,47 @@
+#skills {
+    overflow: hidden;
+    width: 100vw;
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+
+
+.skillTitle {
+    /* Styles for the title */
+}
+
+.skillDesc {
+    /* Styles for the description */
+}
+
+.skillsList {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px; 
+}
+
+.skillItem {
+    color: #fff; 
+    border-radius: 20px; 
+    padding: 8px 16px; 
+    font-size: 14px; 
+    --skill-color: #3498db;
+    background-color: var(--skill-color);
+}
+
+.skillItem:nth-child(2) {
+    --skill-color: #e74c3c;
+}
+
+.skillItem:nth-child(3) {
+    --skill-color: #2ecc71;
+}
