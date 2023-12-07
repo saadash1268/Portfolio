@@ -11,7 +11,7 @@
 }
 
 
-
+/*potentially make my skills as an image */
 
 
 .skillTitle {
@@ -26,7 +26,8 @@
     list-style: none;
     padding: 0;
     display: flex;
-    gap: 10px; 
+    gap: 15px; 
+    flex-wrap: wrap;
 }
 
 .skillItem {

@@ -11,7 +11,7 @@ const Navbar = () => {
     <ScrollLink to="home" smooth={true} duration={500} className="desktopMenuListItem">Home</ScrollLink>
     <ScrollLink to="about" smooth={true} duration={500} className="desktopMenuListItem">About</ScrollLink>
     <ScrollLink to="projects" smooth={true} duration={500} className="desktopMenuListItem">Projects</ScrollLink>
-    <ScrollLink to="blog" smooth={true} duration={500} className="desktopMenuListItem">Blog</ScrollLink>
+    { /*<ScrollLink to="blog" smooth={true} duration={500} className="desktopMenuListItem">Blog</ScrollLink> */}
 </div>
 <button className="desktopMenuBtn">
     Contact Me</button>
