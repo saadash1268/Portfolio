@@ -9,9 +9,9 @@ const Intro = () => {
             <div className="introContent">
                 <span className="hello">Hello, </span>
                 <span className="introText">I'm <span className="introName">Saad</span> <br/>A Full Stack Developer </span>
-                <p className="introPara"> Add a sentence introducing myself</p>
+                <p className="introPara"> Add a sentence introducing myself Add a sentence introducing myself Add a sentence introducing myself Add a sentence introducing myself Add a sentence introducing myself</p>
             </div>
-           { /*for img <img src={} alt= className= */}
+           
         </section>
         
     )  

@@ -7,16 +7,7 @@
     position: relative;
 }
 
-/* for image
-.bg { 
-    position: absolute;
-    top: 4rem;
-    right: 0;
-    z-index: -1;
-    object-fit: cover;
-    height: 100vh;
-}
-*/ 
+
 
 .introContent {
     height: 100vh;

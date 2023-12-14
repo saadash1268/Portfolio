@@ -1,7 +1,6 @@
 #skills {
     overflow: hidden;
-    width: 100vw;
-    max-width: fit-content;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,10 +8,6 @@
     text-align: center;
     margin: 0 auto;
 }
-
-
-/*potentially make my skills as an image */
-
 
 .skillTitle {
     /* Styles for the title */
@@ -28,6 +23,7 @@
     display: flex;
     gap: 15px; 
     flex-wrap: wrap;
+    justify-content: center; /* Center the items horizontally */
 }
 
 .skillItem {
@@ -35,14 +31,15 @@
     border-radius: 20px; 
     padding: 8px 16px; 
     font-size: 14px; 
-    --skill-color: #3498db;
-    background-color: var(--skill-color);
+    background-color: #3498db; /* Default color */
 }
 
 .skillItem:nth-child(2) {
-    --skill-color: #e74c3c;
+    background-color: #e74c3c; /* Different color for the second skill */
 }
 
 .skillItem:nth-child(3) {
-    --skill-color: #2ecc71;
+    background-color: #2ecc71; /* Different color for the third skill */
 }
+
+/* Add more nth-child rules for additional skills */
